@@ -24,7 +24,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
-file_path = "C:/Users/Juan/Desktop/Learning_Through_Projects/Alcohol_and_Academic_Project/Dataset on Student Alcoholism and Academic Performance in High School/en_lpor_explorer.csv"
+file_path = "Dataset on Student Alcoholism and Academic Performance in High School/en_lpor_explorer.csv"
 student_data_raw = pd.read_csv(file_path)
 
 student_data = pd.read_csv(file_path)
